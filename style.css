@@ -1,1 +1,36 @@
-Page CSS de Ghost Wilders Project.
+/* Page CSS de Ghost Wilders Project. */
+
+/* Font and color  */
+body {
+    padding : 0 px;
+    margin : 0 px;
+
+}
+
+h1, h2 {
+    font-family: 'Special Elite', cursive;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+/* Footer  */
+
+footer {
+
+    background-color: #681919;
+    text-align : center;
+    padding : 10px;
+
+}
+
+footer a {
+    text-decoration : none;
+    font-family: 'Merriweather', serif;
+    color : #070707;
+}
