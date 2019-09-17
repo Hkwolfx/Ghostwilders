@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://www.codeur.com/blog/wp-content/uploads/2018/03/codeur-team-startup.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 60%;
+   
+
+}
+p {
+    font-size: 400%;
+    text-align: center;
+    margin-bottom: 30%;
+
+}
+p a {
+    text-decoration: none;
+    color: black;
+    
+}
