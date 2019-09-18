@@ -1,19 +1,14 @@
-/*Page CSS de Ghost Wilders Project.*/
+/*Debut de formulaire*/
 
 form
 {
-    border-top: 5px solid gray;
-    /* margin: 25px;
-    margin: 3px;
-    margin-top: 40px; */
+    border-top: 5px solid gray; 
     width: 60%;
     margin: auto;
 }
 
 .center-form {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     flex-basis: 60%;
 }
 
@@ -51,15 +46,11 @@ textarea
 
 button
 {
-    /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
      padding: 5px;
 }
 
 .button
 {
-    /* To position the buttons to the same position of the text fields */
-    /*padding-right: 0px; /* same size as the label elements */
     width: 60%;
     text-align: center;
     display: flex;
@@ -75,12 +66,4 @@ input[type=submit]
     cursor:pointer;
 
 }
-/*media query
-@media all and (min-width: 961px)
-{
-    form h2
-    {
-        text-align: left;
-        margin:0px;
-    }
-}*/
+/*fin de formulaire*/
