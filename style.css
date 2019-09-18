@@ -1,7 +1,25 @@
 /* Page CSS de Ghost Wilders Project. */
 
+.img_ho {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color : white;
+}
 
 
-.whoAreWe {
-    height : 100
+.whoAreWe:hover .overlay {
+    opacity: 0.5;
 }
