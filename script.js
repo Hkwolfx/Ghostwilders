@@ -3,6 +3,12 @@ const images = []; // Images Array
 let time = 3000; // Time Between Switch
 
 const testimonial = document.querySelector(".testimonial-items");
+const arrow = document.querySelectorAll(".lnr");
+// arrow.forEach(() => {
+//   addEventListener("click", () => {
+//     alert("clicked");
+//   });
+// });
 
 const article1 = `
 <div class="testimonial-item first">
@@ -38,8 +44,6 @@ testimonial.innerHTML = allArticles[i];
 
 function changeArt() {
   testimonial.innerHTML = allArticles[i];
-  console.log("i", i);
-  console.log(testimonial.innerHTML);
 
   // Check If Index Is Under Max
   if (i < allArticles.length - 1) {
