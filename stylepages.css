@@ -1,7 +1,28 @@
+/* Pages by Nico */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+    background-color: #070707;
+}
+
+.soustitrepages {
+    color: #EEE0CB;
+    font-family: 'Merriweather', serif;
+}
+
+.txtpages {
+    color: #EEE0CB;
+    font-family: 'Merriweather', serif;
+}
+
 .titrepages {
     text-align: center;
     font-size: 40px;
+    color: #EEE0CB;
+    font-family: 'Merriweather', serif;
 }
+
 .espace {
     height: 40px;
     width: 100%;
@@ -18,9 +39,11 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .imgpages {
     margin-right: 4%;
 }
+
 .descriptionpages {
     margin-left: 4%;
 }
@@ -37,16 +60,21 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+
     .imgpages {
         margin: auto;
     }
+
     .descriptionpages {
         margin: auto;
     }
+
     .soustitrepages {
         text-align: center;
     }
+
     .txtpages {
         text-align: justify;
     }
 }
+/* Fin pages by Nico */
