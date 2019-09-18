@@ -1,0 +1,52 @@
+.titrepages {
+    text-align: center;
+    font-size: 40px;
+}
+.espace {
+    height: 40px;
+    width: 100%;
+}
+@media screen and (min-width: 640px) {
+    .blocpages {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .imgpages {
+        margin-right: 4%;
+    }
+    .descriptionpages {
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .blocpages {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .imgpages {
+        margin: auto;
+    }
+    .descriptionpages {
+        margin: auto;
+    }
+    .soustitrepages {
+        text-align: center;
+    }
+    .txtpages {
+        text-align: justify;
+    }
+}
