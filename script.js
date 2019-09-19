@@ -1,3 +1,5 @@
+/* -------------------------------JS- Ibra----------Start------------------------*/
+
 let i = 0; // Start Point
 const images = []; // Images Array
 let time = 3000; // Time Between Switch
@@ -63,3 +65,4 @@ function changeArt() {
 
 // Run function when page loads
 window.onload = changeArt;
+/* -------------------------------JS- Ibra---------End-------------------------*/
