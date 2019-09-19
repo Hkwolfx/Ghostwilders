@@ -36,7 +36,6 @@ li:last-child {
 
 ul.topnav {
   list-style-type: none;
-  margin-left : 10%;
   margin-top: 8%;
   overflow: hidden;
   background-color: #A62639;
@@ -79,15 +78,13 @@ ul.topnav li.right {
   float: right;
 }
 
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 500px) {
   ul.topnav li.right, ul.topnav li {
     float: none;
   }
 }
 
 .logoto {
-    max-width: 10%;
-    height: auto;
-
+    height: 10%;
+    position: absolute;
 }
-
