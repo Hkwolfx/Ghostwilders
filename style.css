@@ -1,9 +1,116 @@
-/* Page CSS de Ghost Wilders Project. */
 
 * {
     margin : 0px;
 
 }
+
+/*navbar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  border-right: 1px #bbbbbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(228, 60, 60);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin-top: 8%;
+  overflow: hidden;
+  background-color: #A62639;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  font-family: 'Special Elite', cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px #c4c4c4;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#logo {
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px 2px #c4c4c4;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #BAA898;
+}
+
+ul.topnav li a.active {
+  background-color: #BAA898;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
+}
+
+.logoto {
+    height: 15%;
+    position: absolute;
+    width: 7%;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+
+.logoto:hover {
+  width: 7%; /* on affiche l'image au carré /
+  height: 10%;
+  border-radius: 50%;  / on arrondit l'image /
+  -webkit-transform: rotate(360deg); / rotation de l'image */
+  transform: rotate(360deg);
+}
+
 
 /* Hover-overlay*/
 
@@ -61,5 +168,4 @@
 @media screen and ( min-width: 501) {
     img.img_ho { width: 900px;}
 }
-    
 
