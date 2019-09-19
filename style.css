@@ -3,7 +3,7 @@
 form
 {
     border-top: 5px solid gray; 
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -15,55 +15,70 @@ form
 .center-form
 {
     height: 100vh;
+    background: rgb(51, 38, 38);
     
 }
 
 form h2
 {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: grey;
+    font-size: 40px;
+    color: rgb(148, 19, 19);
     text-align: center;
-    margin-top:10px;
     padding:10x;
 }
+
 input
 {
-    width: 60%;
-    margin: 10px auto;
-    display: block;
-    padding: 2px;
-    font-size: 1.5 em;
-}
-  
-textarea
-{
-    width: 60%;
-    height: 150px;
+    width: 70%;
     margin: 20px auto;
     display: block;
-    padding: 6px;
+    padding: 4px;
+    font-size: 1.5em;
+    
+}
+  
+
+
+
+
+textarea 
+{
+    width: 70%;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    color: rgb(148, 19, 19);
 }
 
 button
 {
-     padding: 5px;
+     padding: 10px;
+     
 }
 
+hr
+{
+    display: block;
+	clear: both;
+	height: 0;
+	margin: 40px 0 80px;
+	padding: 0;
+	border: 0;
+	font-family: arial;
+	text-align: center;
+	font-size: 60px;
+	line-height: 1; 
+    
+}
 .button
 {
-    width: 60%;
+    width: 70%;
     text-align: center;
     display: flex;
     justify-content: flex-end; 
-    margin: 10px auto;
-}
-
-input[type=submit]
-
-{
-    width:100px;
-    box-shadow:1px 1px 1px #D83F3D;
-    cursor:pointer;
-
+    margin: 30px auto;
+    
 }
 /*fin de formulaire*/
