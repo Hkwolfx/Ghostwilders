@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
 body {
     background-color: #070707;
 }
@@ -17,10 +19,10 @@ body {
 }
 
 .titrepages {
-    text-align: center;
+    margin-left: 10%;
     font-size: 40px;
-    color: #EEE0CB;
-    font-family: 'Merriweather', serif;
+    color: #A62639;
+    font-family: 'Special Elite', serif;
 }
 
 .espace {
