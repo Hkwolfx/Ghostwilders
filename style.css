@@ -245,6 +245,21 @@ ul.topnav li.right {
 }
 
 .logoto {
-    height: 10%;
+    height: 15%;
     position: absolute;
+    width: 7%;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
 }
+
+.logoto:hover {
+  width: 7%; /* on affiche l'image au carré /
+  height: 10%;
+  border-radius: 50%;  / on arrondit l'image /
+  -webkit-transform: rotate(360deg); / rotation de l'image */
+  transform: rotate(360deg);
+}
+
