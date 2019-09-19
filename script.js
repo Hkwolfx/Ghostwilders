@@ -12,6 +12,7 @@ const arrow = document.querySelectorAll(".lnr");
 
 const article1 = `
 <div class="testimonial-item first">
+<img src="https://robohash.org/monster1?set=set2 " alt="robot">
 <blockquote>
   <p class="testimonial-quote">Thank you very much for the great job you made of my cooker. You made a
     horrible job look easy and I can't thank you enough. I hate cleaning oven racks and they sparkle now.
@@ -21,19 +22,21 @@ const article1 = `
 </div>
 `;
 const article2 = ` <div class="testimonial-item first">
+<img src="https://robohash.org/monster2?set=set2 " alt="robot">
 <blockquote>
   <p class="testimonial-quote">Just a wee note to say 'WOW!' and thank you to you, and colleagues. Our old
     flat is sparkling and looks absolutely fantastic, I still can't believe how clean the oven is! Thanks so
     much again for all your hard work yesterday.</p>
-  <p class="testimonial-author"><cite>— Nicola, Leith, Edinburgh</cite></p>
+  <p class="testimonial-author"><cite>— <a href="https://www.google.com/"> Nicola, Leith, Edinburgh </a> </cite></p>
 </blockquote>
 </div>`;
 
 const article3 = `<div class="testimonial-item first">
+<img src="https://robohash.org/monster3?set=set2 " alt="robot">
 <blockquote>
   <p class="testimonial-quote">As mentioned I was very satisfied with the quality of the cleaning. The lady
     was very cheerful and enthusiastic. I will definitely consider using Quality Cleaning Services again.</p>
-  <p class="testimonial-author"><cite>— W S Khan, Lothian Road, Edinburgh</cite></p>
+  <p class="testimonial-author"><cite>— <a href="https://www.google.com/"> Read more... </a> </cite></p>
 </blockquote>
 </div>`;
 

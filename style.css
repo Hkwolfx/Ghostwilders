@@ -31,6 +31,19 @@ h4 {
   padding: 20px 0px;
   display: flex;
 }
+
+.testimonial-carousel img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.testimonial-carousel a {
+  color: rgb(150, 137, 137);
+}
+
+.testimonial-carousel a:hover {
+  color: aliceblue;
+}
 .testimonial-carousel .icon-container {
   position: relative;
   padding: 0 5px;
