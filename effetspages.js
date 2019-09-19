@@ -6,7 +6,7 @@ var canvas = document.getElementById('canvas')
 , offset
 , glitchInterval;
 
-img.src = 'code-busters.png';
+img.src = 'GhostwildersTitre.png';
 img.onload = function() {
 init();
   window.onresize = init;
@@ -19,14 +19,14 @@ var init = function() {
   canvas.height = h = ~~(175 * ((w - (offset * 2)) / img.width));
   glitchInterval = setInterval(function() {
       clear();
-      context.drawImage(img, 0, 110, img.width, 175, offset, 0, w - (offset * 2), h);
+      context.drawImage(img, 0, 40, img.width, 175, offset, 0, w - (offset * 2), h);
       setTimeout(glitchImg, randInt(250, 1000));
   }, 500);
 };
 
 var clear = function() {
   context.rect(0, 0, w, h);
-  context.fillStyle = 'white';
+  context.fillStyle = '#070707';
   context.fill();
 };
   
