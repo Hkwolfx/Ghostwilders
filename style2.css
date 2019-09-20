@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap%27');
+/*--------------DEBUT DU CSS DE VANESSA--------------*/ 
+body {
+        background-color: #070707;
+        color: #EEE0CB;
+        font-family: 'Merriweather', serif;
+
+    }
+h1 {
+    font-family: 'Special Elite', cursive;
+    color:#A62639;
+    text-align: left;
+    font-size: 50px;
+    border-spacing: 20%;
+    margin-bottom: 5%;
+    
+}
+/*--------DEBUT DES MEDIAS QUERIES-------------------*/
+@media screen and (min-width : 961px){
+    #CEO {
+        text-align: left;
+    }
+     h3 img {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    p img {
+        justify-content: center;
+        display: flex; 
+
+        }
+    #MANAGER {
+        text-align: left;
+    }
+    #GRAPHIC {
+        text-align: left;
+    }
+    #PHOTOGRAPH {
+        text-align: left;
+    }
+    #INVESTIGATOR {
+        text-align: left;
+    }
+    #JOURNALIST {
+        text-align: left;
+    }
+    #EDITOR {
+        text-align: left;
+    }
+    #VOYANTE {
+        text-align: left;
+    }
+}
+@media screen and (max-width : 961px) {
+    #CEO {
+        text-align: center;
+    }
+     h3 img {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    p img {
+        justify-content: center;
+        display: flex;
+        
+    }
+    #MANAGER {
+        text-align: center;
+    }
+    #GRAPHIC {
+        text-align: center;
+    }
+    #PHOTOGRAPH {
+        text-align: center;
+    }
+    #INVESTIGATOR {
+        text-align: center;
+    }
+    #JOURNALIST {
+        text-align: center;
+    }
+    #EDITOR {
+        text-align: center;
+    }
+    #VOYANTE {
+        text-align: center;
+    }
+
+}
+/*-----------FIN DU CSS DE VANESSA----------*/
