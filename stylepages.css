@@ -1,37 +1,58 @@
 /* Pages by Nico */
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 
-@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
 
 body {
-    background-color: #070707;
+  background-color: #070707;
 }
 
 .soustitrepages {
-    color: #EEE0CB;
-    font-family: 'Merriweather', serif;
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
 }
 
 .txtpages {
-    color: #EEE0CB;
-    font-family: 'Merriweather', serif;
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
 }
 
 .titrepages {
-    margin-left: 10%;
-    font-size: 40px;
-    color: #A62639;
-    font-family: 'Special Elite', serif;
+  margin-left: 10%;
+  font-size: 40px;
+  color: #a62639;
+  font-family: "Special Elite", serif;
 }
 
 .espace {
-    height: 40px;
-    width: 100%;
+  height: 40px;
+  width: 100%;
 }
 
 .blocpages {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imgpages {
+  margin-right: 4%;
+}
+
+.descriptionpages {
+  margin-left: 4%;
+}
+
+@media screen and (max-width: 640px) {
+  .blocpages {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -39,48 +60,27 @@ body {
     hyphens: auto;
     margin-left: 10%;
     margin-right: 10%;
-}
+  }
 
-.imgpages {
-    margin-right: 4%;
-}
+  .imgpages {
+    margin: auto;
+  }
 
-.descriptionpages {
-    margin-left: 4%;
-}
+  .descriptionpages {
+    margin: auto;
+  }
 
-@media screen and (max-width: 640px) {
-    .blocpages {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        -webkit-hyphens: auto;
-        -moz-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+  .soustitrepages {
+    text-align: center;
+  }
 
-    .imgpages {
-        margin: auto;
-    }
+  .txtpages {
+    text-align: justify;
+  }
 
-    .descriptionpages {
-        margin: auto;
-    }
-
-    .soustitrepages {
-        text-align: center;
-    }
-
-    .txtpages {
-        text-align: justify;
-    }
-
-    .titrepages {
-        text-align: center;
-        margin-left: 0;
-    }
+  .titrepages {
+    text-align: center;
+    margin-left: 0;
+  }
 }
 /* Fin pages by Nico */
