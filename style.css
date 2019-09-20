@@ -343,7 +343,7 @@ body{
  
 section h2
 {
-  
+  margin-top:10%;
   margin-bottom: 60px;
   font-family: Special Elite;
   font-style: normal;
@@ -448,4 +448,102 @@ section
     text-align: center;
   }
 }
+
+/*Debut de formulaire*/
+
+body {
+  background-color: #070707;
+}
+form
+{
+    width: 70%;
+    margin: auto;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(148, 19, 19);
+  font-size: 0.5em;
+  opacity: .7;
+}
+
+textarea::placeholder {
+  font-size: 1em;
+}
+
+.center-form {
+    display: flex;
+    flex-basis: 60%;
+}
+
+.center-form
+{
+    height: 100vh;
+    background: rgb(51, 38, 38);
+    
+}
+
+form h2
+{
+    margin-top: 90px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(181, 73, 73);
+    text-align: center;
+    padding:10x;
+}
+
+input
+{
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+    padding: 4px;
+    font-size: 1.5em;
+    
+}
+  
+
+
+
+
+textarea 
+{
+    width: 70%;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    color: rgb(148, 19, 19);
+}
+
+button
+{
+     padding: 10px;
+     
+}
+/*
+hr
+{
+    display: block;
+	clear: both;
+	height: 0;
+	margin: 40px 0 80px;
+	padding: 0;
+	border: 0;
+	font-family: arial;
+	text-align: center;
+	font-size: 60px;
+	line-height: 1; 
+    
+}*/
+.button
+{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end; 
+    margin: 30px auto;
+    
+}
+/*fin de formulaire*/
 
