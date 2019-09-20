@@ -77,5 +77,10 @@ body {
     .txtpages {
         text-align: justify;
     }
+
+    .titrepages {
+        text-align: center;
+        margin-left: 0;
+    }
 }
 /* Fin pages by Nico */
