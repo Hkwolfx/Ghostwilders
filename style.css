@@ -1,7 +1,5 @@
-
 * {
-    margin : 0px;
-
+  margin: 0px;
 }
 
 /*navbar*/
@@ -47,6 +45,7 @@ ul.topnav {
   margin-top: 8%;
   overflow: hidden;
   background-color: #A62639;
+  position: absolute;
 }
 
 ul.topnav li {
@@ -93,80 +92,211 @@ ul.topnav li.right {
 }
 
 .logoto {
-    height: 15%;
-    position: absolute;
-    width: 7%;
-    -webkit-filter: grayscale(0) blur(0px);
-    filter: grayscale(0) blur(0px);
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    
+  height: 15%;
+  position: absolute;
+  width: 7%;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .logoto:hover {
-  width: 7%; /* on affiche l'image au carré /
+  width: 7%;
   height: 10%;
-  border-radius: 50%;  / on arrondit l'image /
-  -webkit-transform: rotate(360deg); / rotation de l'image */
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-
 
 /* Hover-overlay*/
 
 .whoAreWe {
-    
-    position: relative;
-    width: 100%;    
-    margin-top : 5%;
+  position: relative;
+  width: 100%;
+  margin-top: 5%;
 }
 
 .img_ho {
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: auto;
-    max-height : 600px;
-    max-width : 900px;
-    
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  max-width: 900px;
 }
-  
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    max-width : 900px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: white;
-    margin: auto;
-  }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 900px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  margin: auto;
+}
 
 .whoAreWe:hover .overlay {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .text {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align : center;
-    font-size : 3vw;
-    font-family: 'Special Elite', cursive;
-    color: #070707;
-    
-    
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Special Elite', cursive;
+  color: #070707;
 }
 
-@media screen and ( max-width: 1024px ) {
-    img.img_ho { width: 100%; }
+@media screen and ( max-width: 1024px) {
+  img.img_ho {
+    width: 100%;
+  }
 }
+
 @media screen and ( min-width: 501) {
-    img.img_ho { width: 900px;}
+  img.img_ho {
+    width: 900px;
+  }
 }
 
+/* --------------------------Css-Ibra-Start------------------------------- */
+
+/* Slide Css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 3em;
+  }
+}
+
+.callout-text {
+  text-align: center;
+  max-width: 1140px;
+  margin: 20px auto;
+}
+
+.testimonial-carousel {
+  background-image: url("https://images.unsplash.com/photo-1489347215392-cee3b4f539aa?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.testimonial-carousel img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.testimonial-carousel a {
+  color: rgb(150, 137, 137);
+}
+
+.testimonial-carousel a:hover {
+  color: aliceblue;
+}
+
+.testimonial-carousel .icon-container {
+  position: relative;
+  padding: 0 5px;
+  max-width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container {
+    max-width: 50px;
+    padding: 0 10px;
+  }
+}
+
+.testimonial-carousel .icon-container span.lnr {
+  color: #dadada;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: color 0.3s linear;
+}
+
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container span.lnr {
+    font-size: 2.6em;
+  }
+}
+
+.testimonial-carousel .icon-container span.lnr:hover {
+  color: #fff;
+}
+
+.testimonial-carousel p {
+  font-family: "Bad Script", cursive;
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .testimonial-carousel p {
+    font-size: 1.4em;
+  }
+}
+
+.testimonial-items {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  color: #fff;
+}
+
+.testimonial-item {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-item p.testimonial-author {
+  font-weight: bold;
+  text-align: right;
+}
+
+.testimonial-item.first {
+  left: 0;
+}
+
+.testimonial-item.second {
+  left: 100%;
+}
+
+.testimonial-item.third {
+  left: 200%;
+}
+
+/* --------------------------Css-Ibra-End------------------------------- */
