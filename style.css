@@ -1,10 +1,23 @@
 /*Debut de formulaire*/
 
+body {
+  background-color: #070707;
+}
 form
 {
     border-top: 5px solid gray; 
     width: 70%;
     margin: auto;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(148, 19, 19);
+  font-size: 0.5em;
+  opacity: .7;
+}
+
+textarea::placeholder {
+  font-size: 1em;
 }
 
 .center-form {
@@ -21,9 +34,10 @@ form
 
 form h2
 {
+    margin-top: 90px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 40px;
-    color: rgb(148, 19, 19);
+    color: rgb(181, 73, 73);
     text-align: center;
     padding:10x;
 }
@@ -57,7 +71,7 @@ button
      padding: 10px;
      
 }
-
+/*
 hr
 {
     display: block;
@@ -71,7 +85,7 @@ hr
 	font-size: 60px;
 	line-height: 1; 
     
-}
+}*/
 .button
 {
     width: 70%;
@@ -181,7 +195,7 @@ ul.topnav li.right {
 }
 
 .logoto:hover {
-  width: 7%; /* on affiche l'image au carré /
+  width: 7%; 
   height: 10%;
   border-radius: 50%;  / on arrondit l'image /
   -webkit-transform: rotate(360deg); / rotation de l'image */
