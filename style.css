@@ -3,6 +3,24 @@
   margin: 0px;
 }
 
+/* Font and color  */
+
+body {
+  padding : 0 px;
+  margin : 0 px;
+  background-color : #070707;
+
+}
+
+h1, h2 {
+  font-family: 'Special Elite', cursive;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+
 /*navbar*/
 
 ul {
@@ -172,10 +190,6 @@ ul.topnav li.right {
 
 /* Slide Css */
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 h4 {
   font-family: "Lato", sans-serif;
@@ -302,25 +316,6 @@ h4 {
 
 /* --------------------------Css-Ibra-End------------------------------- */
 /* Page CSS de Ghost Wilders Project. */
-
-/* Font and color  */
-
-body {
-    padding : 0 px;
-    margin : 0 px;
-
-}
-
-h1, h2 {
-    font-family: 'Special Elite', cursive;
-}
-
-p {
-    font-family: 'Merriweather', serif;
-}
-
-
-
 
 
 /* Footer  */
