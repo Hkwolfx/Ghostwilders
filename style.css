@@ -343,7 +343,7 @@ body{
  
 section h2
 {
-  
+  margin-top:10%;
   margin-bottom: 60px;
   font-family: Special Elite;
   font-style: normal;
@@ -456,7 +456,6 @@ body {
 }
 form
 {
-    border-top: 5px solid gray; 
     width: 70%;
     margin: auto;
 }
