@@ -30,7 +30,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -62,10 +61,8 @@ li:last-child {
 
 ul.topnav {
   list-style-type: none;
-  margin-top: 8%;
   overflow: hidden;
   background-color: #A62639;
-  position: absolute;
 }
 
 ul.topnav li {
@@ -105,14 +102,13 @@ ul.topnav li.right {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   ul.topnav li.right, ul.topnav li {
     float: none;
   }
 }
 
 .logoto {
-  height: 15%;
   position: absolute;
   width: 7%;
   -webkit-filter: grayscale(0) blur(0px);
@@ -123,7 +119,6 @@ ul.topnav li.right {
 
 .logoto:hover {
   width: 7%;
-  height: 10%;
   border-radius: 50%;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -355,7 +350,7 @@ article
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: Merriweather;
+  font-family: "Merriweather";
   border : 2px black solid;
   padding:10px;
   margin-bottom: 20px;
@@ -416,7 +411,7 @@ section
    color:#A62639;
  }
 
-@media all and (max-width: 500px)
+@media all and (max-width: 640px)
 {
   section h2
   {
@@ -432,7 +427,7 @@ section
     justify-content: center;
     align-items: center;
     text-align:center;
-    font-family: Merriweather;
+    font-family: "Merriweather";
   }
  
   .photo{
