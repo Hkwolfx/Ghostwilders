@@ -7,10 +7,20 @@ Description : Cette créature grotesque, à mi-chemin entre le poulet et l'homme
 La rumeur court qu'il aurait été humain à la base, et que suite à sa consommation excessive de viande blanche, il aurait attiré le courroux du Chicken god qui l'aurait alors transformé en poulet.
 
 
+Le loup-garou
+Description : Les premiers récits concernant l'existence de cette entité mi-homme mi-bête trouvent leur origine en Europe. Tous s'accordent sur les mêmes points : le loup-garou a ainsi une forme humaine en temps normal et se transforme en bête les jours de pleine lune. Ce qui le distingue d'un être humain comme vous et moi sont ses capacités physiques exceptionnelles qui lui permettent par exemple de briser aisément les os de ses victimes. Influencé par sa nature bestiale, le loup-garou est prône à la violence et aux sautes d'humeur, notamment à l'approche de sa transformation. 
+
+
+Sirène 
+Description : Les Grecs la décrivait comme mi-femme mi-oiseau tandis que dans la culture populaire moderne, elle est représentée mi-femme mi-poisson. Même si les doutes subsistent sur son apparence, ses motivations restent les mêmes dans toutes les cultures.
+Dotée d'une voix mélodieuse et enivrante, la sirène attire ses victimes, humaines et animales, à elle. Les sirènes seraient ainsi responsables de bon nombre de disparitions nocturnes inexpliquées. Quels sont ses critères pour choisir ses proies ? Et quel sort réserve t-elle à ses cibles infortunées ?
+
+
+
 [Poltergeist]
 
 Goat virus
-De curieux phénomènes se passent à la wcs. Des élèves se seraient plaints d'avoir eu leur fond d'écran mystérieusement changé en image de chèvre. Le phénomène est particulièrement virulent sur l'ordinateur de notre témoin ML (que nous tairons le nom par souci d'anonymat), qui a eu son écran changé 4 fois en deux jours.
+De curieux phénomènes se passent à la wcs. Des élèves se seraient plaints d'avoir eu leur fond d'écran mystérieusement changé en image de chèvre. Le phénomène est particulièrement virulent sur l'ordinateur de notre témoin ML (dont nous tairons le vrai nom par souci d'anonymat), qui a eu son écran changé 4 fois en deux jours.
 Le nombre de victimes croît de jour en jour et nous n'avons toujours aucunes traces du suspect. Qui ou quoi est responsable de ce phénomène ? Quelles sont ses motivations ? Et pourquoi une image de chèvre ? Le mystère demeure à ce jour irrésolu. 
 
 
@@ -22,6 +32,10 @@ Un véritable culte est voué à la chaussette, symbole de l'école. Il existe a
 Pourtant, ces chaussettes ne sont jamais retrouvées à la même place : on peut notamment les retrouver dans des endroits incongrus comme la cuisine ou la salle des campus managers.
 Un élève en hackaton aurait même entendu les chaussettes manigancer entre elles.
 Prank ou véritable possession ? La ferveur des élèves aurait-elle invoqué quelque de plus sinistre dans cette école ?
+
+Annabelle
+Poupée inoffensive au tout abord, 
+
 
 [Témoignages]
 
