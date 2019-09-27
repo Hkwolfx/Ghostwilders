@@ -144,10 +144,33 @@ ul.topnav li.right {
   width: 100%;
   height: auto;
   max-height: 600px;
-  max-width: 900px;
+  max-width: 1140px;
 }
 
-.overlay {
+.linkQui {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  max-width: 1140px;
+}
+
+.textQui {
+  color : red;
+  font-size: 3vw;
+  font-family: 'Special Elite', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -162,7 +185,7 @@ ul.topnav li.right {
   margin: auto;
 }
 
-.whoAreWe:hover .overlay {
+.imgBanner:hover .overlay {
   opacity: 0.5;
 }
 
@@ -176,17 +199,7 @@ ul.topnav li.right {
   color: #070707;
 }
 
-@media screen and ( max-width: 1024px) {
-  img.img_ho {
-    width: 100%;
-  }
-}
 
-@media screen and ( min-width: 501) {
-  img.img_ho {
-    width: 900px;
-  }
-}
 
 /* --------------------------Css-Ibra-Start------------------------------- */
 
