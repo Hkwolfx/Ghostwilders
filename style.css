@@ -131,17 +131,14 @@ ul.topnav li.right {
 
 /* Hover-overlay*/
 
-.whoAreWe {
-  
-}
 
-/*.whoAreWe {
+.parentImgBanner {
   position: relative;
   width: 100%;
   margin-top: 5%;
 }
 
-.img_ho {
+.imgBanner {
   display: block;
   margin: auto;
   width: 100%;
@@ -189,7 +186,7 @@ ul.topnav li.right {
   img.img_ho {
     width: 900px;
   }
-}*/
+}
 
 /* --------------------------Css-Ibra-Start------------------------------- */
 
