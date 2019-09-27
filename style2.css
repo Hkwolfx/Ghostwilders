@@ -72,8 +72,7 @@ h1 {
     }
     #MANAGER {
         text-align: center;
-        display: flex;
-        flex-direction: row; 
+       
     }
     #GRAPHIC {
         text-align: center;
@@ -95,8 +94,9 @@ h1 {
     }
 
 }
-
- 
-
+h3 p  {
+    display: flex;
+    justify-content: center;
 }
+
 /*-----------FIN DU CSS DE VANESSA----------*/
