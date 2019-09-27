@@ -145,6 +145,11 @@ ul.topnav li.right {
   height: auto;
   max-height: 600px;
   max-width: 1140px;
+  
+}
+
+.imgBanner:hover {
+  opacity : 0.3,
 }
 
 .linkQui {
@@ -154,6 +159,7 @@ ul.topnav li.right {
   height: auto;
   max-height: 600px;
   max-width: 1140px;
+  
 }
 
 .textQui {
@@ -168,6 +174,7 @@ ul.topnav li.right {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 
 
 /*.overlay {
