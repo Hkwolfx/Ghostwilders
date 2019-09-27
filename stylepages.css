@@ -5,16 +5,248 @@
 
 body {
   background-color: #070707;
+  height:100vh;
 }
 
 .soustitrepages {
   color: #eee0cb;
   font-family: "Merriweather", serif;
+  margin-left: -65%;
+  margin-right: 120%;
 }
+.soustitrepages2 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -48.8%;
+  margin-right: 109%;
+}
+.soustitrepages3 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -41.8%;
+  margin-right: 104%;
+}
+.soustitrepages4 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -54.8%;
+  margin-right: 117%;
+}
+.soustitrepages5 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -63.8%;
+  margin-right: 121%;
+}
+.soustitrepages6 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -55.5%;
+  margin-right: 115%;
+}
+.soustitrepages7 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -38.8%;
+  margin-right: 102%;
+}
+.soustitrepages8 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -51.5%;
+  margin-right: 111%;
+}
+.soustitrepages9 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -53.5%;
+  margin-right: 113%;
+}
+
+.soustitrepagesimg {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -73%;
+  margin-top: 7%;
+  font-size: 102px;
+  margin-right: 28%;
+}
+.soustitrepagesimg2 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -73%;
+  margin-top: 8%;
+  font-size: 102px;
+  margin-right: 26%;
+}
+.soustitrepagesimg3 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -73%;
+  margin-top: 4%;
+  font-size: 102px;
+  margin-right: -2%;
+}
+.soustitrepagesimg4 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -68%;
+  margin-top: 7%;
+  font-size: 102px;
+  margin-right: 32%;
+}
+.soustitrepagesimg5 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -67%;
+  margin-top: 5%;
+  font-size: 102px;
+  margin-right: 11%;
+}
+.soustitrepagesimg6 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -71%;
+  margin-top: 7%;
+  font-size: 102px;
+  margin-right: 30%;
+}
+.soustitrepagesimg7 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -93%;
+  margin-top: 4.5%;
+  font-size: 102px;
+  margin-right: 8%;
+  text-align: center;
+}
+.soustitrepagesimg8 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -70%;
+  margin-top: 8%;
+  font-size: 102px;
+  margin-right: 26%;
+}
+.soustitrepagesimg9 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -88%;
+  margin-top: 5%;
+  font-size: 102px;
+  margin-right: 14%;
+  text-align: center;
+}
+
 
 .txtpages {
   color: #eee0cb;
   font-family: "Merriweather", serif;
+  margin-left: -65%;
+  margin-right: 120%;
+  margin-top: 1%;
+}
+.txtpages2 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -48.8%;
+  margin-right: 109%;
+  margin-top: 1%;
+}
+.txtpages3 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -41.8%;
+  margin-right: 104%;
+  margin-top: 1%;
+}
+.txtpages4 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -54.8%;
+  margin-right: 117%;
+  margin-top: 1%;
+}
+.txtpages5 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -63.8%;
+  margin-right: 121%;
+  margin-top: 1%;
+}
+.txtpages6 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -55.5%;
+  margin-right: 115%;
+  margin-top: 1%;
+}
+.txtpages7 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -38.8%;
+  margin-right: 102%;
+  margin-top: 1%;
+}
+.txtpages8 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -51.5%;
+  margin-right: 111%;
+  margin-top: 1%;
+}
+.txtpages9 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -53.5%;
+  margin-right: 113%;
+  margin-top: 1%;
+}
+
+.descriptionpages {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages2 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages3 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages4 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages5 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages6 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages7 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages8 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages9 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
 }
 
 .titrepages {
@@ -31,26 +263,32 @@ body {
 }
 
 .blocpages {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  display: flex;
 }
 
-.imgpages {
-  margin-right: 4%;
-  box-shadow: 8px 8px 12px #a626397e;
-  width: 300px;
+.imgptg1a {
+  overflow: hidden;
   height: 300px;
+  width: 1051px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-.descriptionpages {
-  margin-left: 4%;
+.imgptg1b {
+  height: 300px;
+  width: 300;
+  margin: -442px 33%;
+  transform:scale(3.50); opacity: 0.4;
+  pointer-events: all;
+}
+
+@keyframes crescendo {
+  0%   {transform: scale(3.50); opacity: 0.4;} 
+  100% {transform: scale(1); margin-left: 0; margin-bottom: -300px;}
 }
 
 @media screen and (max-width: 640px) {
@@ -87,4 +325,18 @@ body {
     margin-left: 0;
   }
 }
+
+/* animation fantôme */
+.logoto {
+  opacity: 0.5;
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+
+/* fin animation fantôme */
 /* Fin pages by Nico */
