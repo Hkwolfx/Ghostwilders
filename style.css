@@ -3,21 +3,21 @@
 body {
   background-color: #070707;
 }
-form
-{
-    border-top: 5px solid gray; 
+
+form {
     width: 70%;
-    margin: auto;
+    margin: auto;   
 }
+
 input::placeholder,
 textarea::placeholder {
   color: rgb(148, 19, 19);
-  font-size: 0.5em;
+  font-size: 0.7em;
   opacity: .7;
 }
 
 textarea::placeholder {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .center-form {
@@ -25,75 +25,62 @@ textarea::placeholder {
     flex-basis: 60%;
 }
 
-.center-form
-{
+.center-form {
     height: 100vh;
-    background: rgb(51, 38, 38);
-    
+    background: rgb(51, 38, 38);  
 }
 
-form h2
-{
+form h2 {
     margin-top: 90px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: 'Special Elite', cursive;
     font-size: 40px;
     color: rgb(181, 73, 73);
     text-align: center;
     padding:10x;
 }
 
-input
-{
+input {
     width: 70%;
     margin: 20px auto;
     display: block;
     padding: 4px;
     font-size: 1.5em;
-    
+    background-color:#FFE4E1;
+    box-shadow:-4px -4px 6px #A62639;
 }
   
 
-
-
-
-textarea 
+button[type=button]
 {
+  background-color:#A62639;
+  width: 100%; 
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 5px;
+}
+
+textarea {
     width: 70%;
     height: 200px;
     margin: 20px auto;
     display: block;
     padding: 10px;
     color: rgb(148, 19, 19);
+    background-color:#FFE4E1;
+    box-shadow:-4px -4px 6px #A62639;
 }
 
-button
-{
-     padding: 10px;
-     
-}
-/*
-hr
-{
-    display: block;
-	clear: both;
-	height: 0;
-	margin: 40px 0 80px;
-	padding: 0;
-	border: 0;
-	font-family: arial;
-	text-align: center;
-	font-size: 60px;
-	line-height: 1; 
-    
-}*/
-.button
-{
+button {
+     padding: 10px;  
+}   
+
+.button {
     width: 70%;
     text-align: center;
     display: flex;
     justify-content: flex-end; 
-    margin: 30px auto;
-    
+    margin: 30px auto;   
 }
 /*fin de formulaire*/
 
@@ -191,7 +178,6 @@ ul.topnav li.right {
     filter: grayscale(0) blur(0px);
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    
 }
 
 .logoto:hover {
@@ -201,4 +187,3 @@ ul.topnav li.right {
   -webkit-transform: rotate(360deg); / rotation de l'image */
   transform: rotate(360deg);
 }
-
