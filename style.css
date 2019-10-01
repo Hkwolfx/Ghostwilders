@@ -66,6 +66,7 @@ ul.topnav {
   overflow: hidden;
   background-color: #A62639;
   position: absolute;
+  z-index:9999;
 }
 
 ul.topnav li {
@@ -140,7 +141,8 @@ ul.topnav li.right {
   max-height: 600px;
   max-width: 1140px;
   margin: auto;
-  top : 20%;
+  margin-top : 10%;
+  
  
 }
 
