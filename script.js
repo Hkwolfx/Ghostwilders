@@ -66,3 +66,7 @@ function changeArt() {
 // Run function when page loads
 window.onload = changeArt;
 /* -------------------------------JS- Ibra---------End-------------------------*/
+
+
+/* Hover */
+
