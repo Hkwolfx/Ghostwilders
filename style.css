@@ -346,12 +346,18 @@ h4 {
 
 /* Contact infos */
 
-.contactInfosHome {
-  background-color : #681919;
-  
-  display : flex;
+#hide {
+  margin-left : 90%;
+  margin-top : 2%;
+  color: #EEE0CB;
+  background-color :  #681919;
+}
+
+#contactInfosHome {
+  background-color : #681919;  
+  display : none; /* flex ou none */
   justify-content : center;
-  height : 40vh;
+  height : 25vh;
   margin-top : 5%;
   
 }
@@ -359,6 +365,7 @@ h4 {
 .infosGhostwilders {
   width : 50%;
   
+   
 }
 
 .txtGhostwilders{
@@ -368,13 +375,26 @@ h4 {
   align-items: center;
   font-family: 'Merriweather', serif;
   font-size: 1.5vw;
+  color: #BAA898;
+  
+  
     
 }
 
+.txtGhostwilders p {
+  
+  font-size : 1vw;
+}
+
+.txtGhostwilders h3 {
+  
+  font-size : 1.5vw;
+}
 
 .mapWcs {
   width : 50%;
   background-image: url('img_src/wcsmap2.png');
+  background-repeat:no-repeat;
   
 }
 
@@ -390,11 +410,12 @@ h4 {
   background-color: #681919;
   display : flex; 
   justify-content: flex-start;	
+  
 }
 
 .footeritems {
   margin : 1%;
-  font-size : 1.2vw;
+  font-size : 1vw;
   font-family: 'Merriweather', serif;
   color : #070707;
   display : flex;
