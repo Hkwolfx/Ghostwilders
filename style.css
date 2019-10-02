@@ -398,6 +398,25 @@ h4 {
   
 }
 
+@media (max-width: 1400px) {
+  .mapWcs {
+    display : none;
+  }
+
+  .infosGhostwilders {
+    width : 100%;
+  }
+
+  .infosGhostwilders h3 {
+    font-size : 2vw;
+  }
+
+  .infosGhostwilders p {
+    margin-top : 1vh;
+    font-size : 2vw;
+  }
+}
+
 
   
 
