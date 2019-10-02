@@ -344,24 +344,49 @@ h4 {
 /* Page CSS de Ghost Wilders Project. */
 
 
-/* Footer  */
+/* Contact infos */
 
-/*footer {
-
-    background-color: #681919;
-    text-align : center;
-    padding : 10px;
-
+.contactInfosHome {
+  background-color : #681919;
+  
+  display : flex;
+  justify-content : center;
+  height : 40vh;
+  margin-top : 5%;
+  
 }
 
-footer a {
-    text-decoration : none;
-    font-family: 'Merriweather', serif;
-    color : #070707;
-}*/
+.infosGhostwilders {
+  width : 50%;
+  
+}
+
+.txtGhostwilders{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5vw;
+    
+}
+
+
+.mapWcs {
+  width : 50%;
+  background-image: url('img_src/wcsmap2.png');
+  
+}
+
+
+  
+
+
+/* Footer  */
+
 
 .footerlist {
-  width : 100%;
+  width :100%;
   background-color: #681919;
   display : flex; 
   justify-content: flex-start;	
@@ -373,8 +398,6 @@ footer a {
   font-family: 'Merriweather', serif;
   color : #070707;
   display : flex;
-  
-
 }
 
 #boutonContactFooter {
@@ -388,8 +411,7 @@ footer a {
 #trademarkWcs {
   box-sizing: border-box;
   margin-left: 35%;
-  
-  
+   
 }
 /*Page CSS de Ghost Wilders Project.*/
 
