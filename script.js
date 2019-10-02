@@ -2,15 +2,30 @@
 
 let i = 0; // Start Point
 const images = []; // Images Array
+const imageBackground = ['abdou.jpg', 'chaussettes.jpg','goatman.jpg'];
 let time = 3000; // Time Between Switch
 
 const testimonial = document.querySelector(".testimonial-items");
-const arrow = document.querySelectorAll(".lnr");
-// arrow.forEach(() => {
-//   addEventListener("click", () => {
-//     alert("clicked");
-//   });
-// });
+const backgroundImage = document.querySelector('.testimonial-carousel');
+
+const arrow = document.querySelectorAll("span.lnr");
+
+// arrow.style.backgroundColor = "red";
+console.log(arrow);
+arrow.forEach(arr => {
+  arr.addEventListener("click", () => {
+    if (i < allArticles.length - 1) {
+      // Add 1 to Index
+      i++;
+    } else {
+      // Reset Back To O
+      i = 0;
+    }
+    backgroundImage.style.backgroundImage =  `linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.699)),url(${imageBackground[i]})`;
+    testimonial.innerHTML = allArticles[i];
+  });
+ 
+});
 
 const article1 = `
 <div class="testimonial-item first">
@@ -64,5 +79,5 @@ function changeArt() {
 }
 
 // Run function when page loads
-window.onload = changeArt;
+// window.onload = changeArt;
 /* -------------------------------JS- Ibra---------End-------------------------*/
