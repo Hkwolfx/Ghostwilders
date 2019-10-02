@@ -212,40 +212,6 @@ ul.topnav li.right {
 }
 
 
-
-
-/*.overlay { //test initial
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  max-width: 900px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-  margin: auto;
-}
-
-.imgBanner:hover .overlay {
-  opacity: 0.5;
-}
-
-.text {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  font-size: 3vw;
-  font-family: 'Special Elite', cursive;
-  color: #070707;
-}
-
-
-
-
 /* --------------------------Css-Ibra-Start------------------------------- */
 
 /* Slide Css */
@@ -380,7 +346,7 @@ h4 {
 
 /* Footer  */
 
-footer {
+/*footer {
 
     background-color: #681919;
     text-align : center;
@@ -392,8 +358,39 @@ footer a {
     text-decoration : none;
     font-family: 'Merriweather', serif;
     color : #070707;
+}*/
+
+.footerlist {
+  width : 100%;
+  background-color: #681919;
+  display : flex; 
+  justify-content: flex-start;	
 }
 
+.footeritems {
+  margin : 1%;
+  font-size : 1.2vw;
+  font-family: 'Merriweather', serif;
+  color : #070707;
+  display : flex;
+  
+
+}
+
+#boutonContactFooter {
+  background-color :#A62639;
+  box-sizing: border-box;
+  padding : 1%;
+  margin : 0;  
+  color : #EEE0CB;
+}
+
+#trademarkWcs {
+  box-sizing: border-box;
+  margin-left: 35%;
+  
+  
+}
 /*Page CSS de Ghost Wilders Project.*/
 
 body{
