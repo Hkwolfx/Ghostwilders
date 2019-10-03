@@ -31,29 +31,27 @@ const article1 = `
 <div class="testimonial-item first">
 <img src="https://robohash.org/monster1?set=set2 " alt="robot">
 <blockquote>
-  <p class="testimonial-quote">Thank you very much for the great job you made of my cooker. You made a
-    horrible job look easy and I can't thank you enough. I hate cleaning oven racks and they sparkle now.
-    Thanks again.</p>
-  <p class="testimonial-author"><cite>— <a href="https://www.google.com/">H Scott, Edinburgh</a></cite></p>
+  <p class="testimonial-quote">Cette créature grotesque, à mi-chemin entre le poulet
+  et l'homme aurait été aperçue aux environs du 2ème étage de la wcs...</p>
+  <p class="testimonial-author"><cite>— <a href="creatures.html">En savoir plus...</a></cite></p>
 </blockquote>
 </div>
 `;
 const article2 = ` <div class="testimonial-item first">
 <img src="https://robohash.org/monster2?set=set2 " alt="robot">
 <blockquote>
-  <p class="testimonial-quote">Just a wee note to say 'WOW!' and thank you to you, and colleagues. Our old
-    flat is sparkling and looks absolutely fantastic, I still can't believe how clean the oven is! Thanks so
-    much again for all your hard work yesterday.</p>
-  <p class="testimonial-author"><cite>— <a href="https://www.google.com/"> Nicola, Leith, Edinburgh </a> </cite></p>
+  <p class="testimonial-quote">Des élèves se seraient plaints d'avoir eu leur fond d'écran
+  mystérieusement changé en image de chèvre...</p>
+  <p class="testimonial-author"><cite>— <a href="poltergeist.html">En savoir plus...</a> </cite></p>
 </blockquote>
 </div>`;
 
 const article3 = `<div class="testimonial-item first">
 <img src="https://robohash.org/monster3?set=set2 " alt="robot">
 <blockquote>
-  <p class="testimonial-quote">As mentioned I was very satisfied with the quality of the cleaning. The lady
-    was very cheerful and enthusiastic. I will definitely consider using Quality Cleaning Services again.</p>
-  <p class="testimonial-author"><cite>— <a href="https://www.google.com/"> Read more... </a> </cite></p>
+  <p class="testimonial-quote">Il nous a été reporté que les chaussettes à la wcs seraient
+  vivantes...</p>
+  <p class="testimonial-author"><cite>— <a href="possessions.html">En savoir plus... </a> </cite></p>
 </blockquote>
 </div>`;
 

@@ -17,15 +17,6 @@ body {
   padding: 20px;
 } */
 
-h1,
-h2 {
-  font-family: "Special Elite", cursive;
-}
-
-p {
-  font-family: "Merriweather", serif;
-}
-
 /*navbar*/
 
 ul {
@@ -155,8 +146,7 @@ ul.topnav li.right {
   width: 100%;
   height: auto;
   max-height: 600px;
-  max-width: 1140px;
-  
+  max-width: 1140px; 
 }
 
 .overlay { 
@@ -182,7 +172,6 @@ ul.topnav li.right {
 
 
 .linkQui2 {
-  
   position:absolute;
   color: #fff;
   width: 100%;
@@ -195,14 +184,15 @@ ul.topnav li.right {
   margin-left: auto; /* margin + left .. ici pour centrer le position absolute */
   margin-right: auto;
   left: 0;
-  right: 0;
-    
+  right: 0;    
+  
 }
 
 
 .textQui {
   color : red;
   font-size: 4vw;
+  font-family: 'Special Elite', cursive; 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -210,21 +200,22 @@ ul.topnav li.right {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Special Elite', cursive;
+  
 }
 
 #addWords {
   display:none;
 }
 
-@media (max-width: 1400px) { /*image en overlay s'applique par défaut sur petit écran*/
+/*image en overlay s'applique par défaut sur petit écran*/
+@media (max-width: 1400px) { 
   .overlay {  
-    opacity: 0.5;
-    
+    opacity: 0.5;  
   }
 
   .textQui {
     font-size : 4vw;
+     
   }
 
   #addWords {
@@ -235,14 +226,18 @@ ul.topnav li.right {
   }
   
 }
-
 /* --------------------------Css-Ibra-Start------------------------------- */
 
 /* Slide Css */
 
+.section-articles {
+  margin-top : 5%;
+  margin-bottom: 5%;
+}
+
 h4 {
-  font-family: "Lato", sans-serif;
-  font-size: 2em;
+  font-family: 'Special Elite', cursive; 
+  font-size: 1vw;
   color: white;
   /* text-align: center; */
 }
@@ -254,6 +249,7 @@ h4 {
   transform: scale(0);
   transition: all .6s;
   opacity: 0;
+  font-size: 2vw;
 }
 .testimonial-carousel:hover .h4-hover{
  transform: scale(1.5);
@@ -400,7 +396,7 @@ h4 {
   display : none; /* flex ou none */
   justify-content : center;
   height : 25vh;
-  margin-top : 5%;
+  
   
 }
 
@@ -417,27 +413,21 @@ h4 {
   align-items: center;
   font-family: 'Merriweather', serif;
   font-size: 1.5vw;
-  color: #BAA898;
-  
-  
-    
+  color: #BAA898;    
 }
 
-.txtGhostwilders p {
-  
+.txtGhostwilders p { 
   font-size : 1vw;
 }
 
-.txtGhostwilders h3 {
-  
+.txtGhostwilders h3 {  
   font-size : 1.5vw;
 }
 
 .mapWcs {
   width : 50%;
   background-image: url('img_src/wcsmap2.png');
-  background-repeat:no-repeat;
-  
+  background-repeat:no-repeat;  
 }
 
 @media (max-width: 1400px) {
@@ -450,26 +440,21 @@ h4 {
   }
 
   .infosGhostwilders h3 {
-    font-size : 2vw;
-    
-    
+    font-size : 2vw;   
   }
 
   .infosGhostwilders p {
-    font-size : 2vw;
-    
+    font-size : 2vw;    
   }
 }
 
 /* Footer  */
 
-
 .footerlist {
   width :100%;
   background-color: #681919;
   display : flex; 
-  justify-content: flex-start;	
-  
+  justify-content: flex-start;	 
 }
 
 .footeritems {
@@ -493,6 +478,7 @@ h4 {
   margin-left: 35%;
    
 }
+
 /*Page CSS de Ghost Wilders Project.*/
 
 body {
@@ -511,7 +497,7 @@ article {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   border: 2px black solid;
   padding: 10px;
   margin-bottom: 20px;
