@@ -139,7 +139,6 @@ body {
   text-align: center;
 }
 
-
 .txtpages {
   color: #eee0cb;
   font-family: "Merriweather", serif;
@@ -708,6 +707,7 @@ body {
     margin-right: auto;
     position: absolute;
 }
+
 .soustitrepagesimg2 {
   margin-left: 11vw;
   padding-top: 7vw;
@@ -756,11 +756,6 @@ body {
   margin-right: auto;
   position: absolute;
 }
-
-
-  }
-
-
 
 /* animation fantôme */
 .logoto {
