@@ -60,6 +60,7 @@ ul.topnav {
   background-color: #a62639;
   position: absolute;
   z-index:9999;
+  margin-top : 10%;
 }
 
 ul.topnav li {
@@ -112,7 +113,16 @@ ul.topnav li.right {
   filter: grayscale(0) blur(0px);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  opacity: 0.5;
+  animation: float 3s ease-out infinite;
 }
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+
 
 .logoto:hover {
   width: 7%;
