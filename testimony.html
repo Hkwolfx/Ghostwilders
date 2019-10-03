@@ -9,7 +9,7 @@
     <title>Ghost Wilders</title>
 </head>
 
-<body>
+<body onload="displayAlert()">
 
     <header>
 
@@ -37,7 +37,8 @@
 
     <section>
         <h2>TEMOIGNAGES</h2>
-
+     
+        
 
         <article>
 
@@ -112,16 +113,32 @@
 
     </section>
     <div class="number_page">
-        <p>
-            <</p> <p>1
-        </p>
+        <p><</p>
+        <p>1</p>
         <p>2</p>
         <p>3</p>
         <p>></p>
     </div>
 
-    <script src="script.js"></script>
+        <!--popup avertissement-->
+         <div id="messAlert">
+           <div id="content_center">
+                <h1>AVERTISSEMENT</h1>
+                <p>Tous les témoignages qui vont suivre sont des récits réels. Les manifestations paranormales, voires démonianiques relatés ci-après, se sont réellements produites.</p>
+                </p>
+                <br>
+                <p>Aussi, toute personne sensible est prié de quitter la page immédiatement.</p>
+                <br>
+                <p>L'équipe GhostWilders, ne pourra être tenu pour responsable, si à la lecture des témoignages votre vie change pour toujours.</p>
+               <button id="close">En cliquant, j'accepte les risques encourus.</button>
+            </div> 
+         </div>
+            
+            
+
+    <script src="script.js"></script> 
     <script src="effetspages.js"></script>
+    <script src="tracy.js"></script>
 
     <footer>
 
