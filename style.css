@@ -141,9 +141,7 @@ ul.topnav li.right {
   max-height: 600px;
   max-width: 1140px;
   margin: auto;
-  margin-top : 10%;
-  
- 
+  margin-top : 10%; 
 }
 
 .imgBanner {
@@ -170,8 +168,7 @@ ul.topnav li.right {
   transition: .5s ease;
   background-color: white;
   margin: auto;
-  
-  
+  font-family: 'Special Elite', cursive;
 }
 
 .parentImgBanner:hover .overlay {
@@ -200,8 +197,7 @@ ul.topnav li.right {
 
 .textQui {
   color : red;
-  font-size: 3vw;
-  font-family: 'Special Elite', cursive;
+  font-size: 4vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -209,8 +205,31 @@ ul.topnav li.right {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: 'Special Elite', cursive;
 }
 
+#addWords {
+  display:none;
+}
+
+@media (max-width: 1400px) { /*image en overlay s'applique par défaut sur petit écran*/
+  .overlay {  
+    opacity: 0.5;
+    
+  }
+
+  .textQui {
+    font-size : 4vw;
+  }
+
+  #addWords {
+    margin-top : 1%;
+    display:block;
+    font-size : 2vw;
+    font-family: 'Special Elite', cursive; 
+  }
+  
+}
 
 
 
