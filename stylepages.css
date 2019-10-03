@@ -1,0 +1,90 @@
+/* Pages by Nico */
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
+
+body {
+  background-color: #070707;
+}
+
+.soustitrepages {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+}
+
+.txtpages {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+}
+
+.titrepages {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: 40px;
+  color: #a62639;
+  font-family: "Special Elite", serif;
+}
+
+.espace {
+  height: 40px;
+  width: 100%;
+}
+
+.blocpages {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imgpages {
+  margin-right: 4%;
+  box-shadow: 8px 8px 12px #a626397e;
+  width: 300px;
+  height: 300px;
+}
+
+.descriptionpages {
+  margin-left: 4%;
+}
+
+@media screen and (max-width: 640px) {
+  .blocpages {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .imgpages {
+    margin: auto;
+  }
+
+  .descriptionpages {
+    margin: auto;
+  }
+
+  .soustitrepages {
+    text-align: center;
+  }
+
+  .txtpages {
+    text-align: justify;
+  }
+
+  .titrepages {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+/* Fin pages by Nico */
