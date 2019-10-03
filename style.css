@@ -1,1 +1,666 @@
+* {
+  margin: 0px;
+}
+
+/* Font and color  */
+
+body {
+  padding: 0 px;
+  margin: 0 px;
+  background-color: #070707;
+  overflow-x: hidden;
+  /* max-width: 1100px; */
+}
+
+/* .container {
+  max-width: 1000px;
+  padding: 20px;
+} */
+
+/*navbar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  border-right: 1px #bbbbbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(228, 60, 60);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin-top: 8%;
+  overflow: hidden;
+  background-color: #a62639;
+  position: absolute;
+  z-index:9999;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  font-family: "Special Elite", cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px #c4c4c4;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#logo {
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px 2px #c4c4c4;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #baa898;
+}
+
+ul.topnav li a.active {
+  background-color: #baa898;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+.logoto {
+  height: 15%;
+  position: absolute;
+  width: 7%;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.logoto:hover {
+  width: 7%;
+  height: 10%;
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/* Hover-overlay*/
+
+ 
+.parentImgBanner {
+  position: relative;
+  width: 100%;
+  overflow: hidden; 
+  display: table;
+  max-height: 600px;
+  max-width: 1140px;
+  margin: auto;
+  margin-top : 10%; 
+}
+
+.imgBanner {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  max-width: 1140px; 
+}
+
+.overlay { 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-height: 600px;
+  max-width: 1140px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+  margin: auto;
+  font-family: 'Special Elite', cursive;
+}
+
+.parentImgBanner:hover .overlay {
+  opacity: 0.5;
+}
+
+
+.linkQui2 {
+  position:absolute;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 0;
+  z-index:2;
+  max-height: 600px;
+  max-width: 1140px;
+  margin-left: auto; /* margin + left .. ici pour centrer le position absolute */
+  margin-right: auto;
+  left: 0;
+  right: 0;    
+  
+}
+
+
+.textQui {
+  color : red;
+  font-size: 4vw;
+  font-family: 'Special Elite', cursive; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+#addWords {
+  display:none;
+}
+
+/*image en overlay s'applique par défaut sur petit écran*/
+@media (max-width: 1400px) { 
+  .overlay {  
+    opacity: 0.5;  
+  }
+
+  .textQui {
+    font-size : 4vw;
+     
+  }
+
+  #addWords {
+    margin-top : 1%;
+    display:block;
+    font-size : 2vw;
+    font-family: 'Special Elite', cursive; 
+  }
+  
+}
+/* --------------------------Css-Ibra-Start------------------------------- */
+
+/* Slide Css */
+
+.section-articles {
+  margin-top : 5%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  font-family: 'Special Elite', cursive; 
+  font-size: 1vw;
+  color: white;
+  /* text-align: center; */
+}
+
+.h4-hover{
+  position: absolute;
+  top: 80px;
+  left: 390px;
+  transform: scale(0);
+  transition: all .6s;
+  opacity: 0;
+  font-size: 2vw;
+}
+.testimonial-carousel:hover .h4-hover{
+ transform: scale(1.5);
+ opacity: 1;
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 3em;
+  }
+}
+
+.callout-text {
+  text-align: center;
+  max-width: 1140px;
+  margin: 20px auto;
+}
+
+.testimonial-carousel {
+  /* background-image: url('https://images.unsplash.com/photo-1559711836-951d1eb1a043?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.699)),
+  url('chaussettes.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.testimonial-carousel img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.testimonial-carousel a {
+  color: rgb(150, 137, 137);
+}
+
+.testimonial-carousel a:hover {
+  color: aliceblue;
+}
+
+.testimonial-carousel .icon-container {
+  position: relative;
+  padding: 0 5px;
+  max-width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container {
+    max-width: 50px;
+    padding: 0 10px;
+  }
+}
+
+.testimonial-carousel .icon-container span.lnr {
+  color: #dadada;
+  display: block;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: color 0.3s linear;
+}
+
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container span.lnr {
+    font-size: 2.6em;
+  }
+}
+
+.testimonial-carousel .icon-container span.lnr:hover {
+  color: #fff;
+}
+
+.testimonial-carousel p {
+  font-family: "Bad Script", cursive;
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .testimonial-carousel p {
+    font-size: 1.4em;
+  }
+}
+
+.testimonial-items {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  color: #fff;
+}
+
+.testimonial-item {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-item p.testimonial-author {
+  font-weight: bold;
+  text-align: right;
+}
+
+.testimonial-item.first {
+  left: 0;
+}
+
+.testimonial-item.second {
+  left: 100%;
+}
+
+.testimonial-item.third {
+  left: 200%;
+}
+
+/* --------------------------Css-Ibra-End------------------------------- */
+/* Page CSS de Ghost Wilders Project. */
+
+
+/* Contact infos */
+
+#hide {
+  margin-left : 90%;
+  margin-top : 2%;
+  color: #EEE0CB;
+  background-color :  #681919;
+}
+
+#contactInfosHome {
+  background-color : #681919;  
+  display : none; /* flex ou none */
+  justify-content : center;
+  height : 25vh;
+  
+  
+}
+
+.infosGhostwilders {
+  width : 50%;
+  
+   
+}
+
+.txtGhostwilders{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5vw;
+  color: #BAA898;    
+}
+
+.txtGhostwilders p { 
+  font-size : 1vw;
+}
+
+.txtGhostwilders h3 {  
+  font-size : 1.5vw;
+}
+
+.mapWcs {
+  width : 50%;
+  background-image: url('img_src/wcsmap2.png');
+  background-repeat:no-repeat;  
+}
+
+@media (max-width: 1400px) {
+  .mapWcs {
+    display : none;
+  }
+
+  .infosGhostwilders {
+    width : 100%;
+  }
+
+  .infosGhostwilders h3 {
+    font-size : 2vw;   
+  }
+
+  .infosGhostwilders p {
+    font-size : 2vw;    
+  }
+}
+
+/* Footer  */
+
+.footerlist {
+  width :100%;
+  background-color: #681919;
+  display : flex; 
+  justify-content: flex-start;	 
+}
+
+.footeritems {
+  margin : 1%;
+  font-size : 1vw;
+  font-family: 'Merriweather', serif;
+  color : #070707;
+  display : flex;
+}
+
+#boutonContactFooter {
+  background-color :#A62639;
+  box-sizing: border-box;
+  padding : 1%;
+  margin : 0;  
+  color : #EEE0CB;
+}
+
+#trademarkWcs {
+  box-sizing: border-box;
+  margin-left: 35%;
+   
+}
+
+/*Page CSS de Ghost Wilders Project.*/
+
+body {
+  background-color: black;
+}
+
+section h2 {
+  margin-top: 10%;
+  margin-bottom: 60px;
+  font-family: "Special Elite", serif;
+  font-size: 40px;
+  color: #a62639;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Merriweather', serif;
+  border: 2px black solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: auto;
+}
+
+.horreur_photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional
+    spread radius] [color];
+}
+
+.photo {
+  margin-right: 15px;
+}
+
+section {
+  width: 85%;
+  margin: auto;
+}
+
+.titre,
+.publie {
+  margin: 0px;
+}
+
+.paragraph {
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.publie {
+  text-align: right;
+}
+
+.number_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #a62639;
+}
+
+.number_page p {
+  margin-right: 20px;
+  color: #a62639;
+}
+
+@media all and (max-width: 500px) {
+  section h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Merriweather;
+  }
+
+  .photo {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .publie {
+    text-align: center;
+  }
+}
+
+/*Debut de formulaire*/
+
+body {
+  background-color: #070707;
+}
+form {
+  width: 70%;
+  margin: auto;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(148, 19, 19);
+  font-size: 0.5em;
+  opacity: 0.7;
+}
+
+textarea::placeholder {
+  font-size: 1em;
+}
+
+.center-form {
+  display: flex;
+  flex-basis: 60%;
+}
+
+.center-form {
+  height: 100vh;
+  background: rgb(51, 38, 38);
+}
+
+form h2 {
+  margin-top: 90px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(181, 73, 73);
+  text-align: center;
+  padding: 10x;
+}
+
+input {
+  width: 70%;
+  margin: 20px auto;
+  display: block;
+  padding: 4px;
+  font-size: 1.5em;
+}
+
+textarea {
+  width: 70%;
+  height: 200px;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  color: rgb(148, 19, 19);
+}
+
+button {
+  padding: 10px;
+}
+/*
+hr
+{
+    display: block;
+	clear: both;
+	height: 0;
+	margin: 40px 0 80px;
+	padding: 0;
+	border: 0;
+	font-family: arial;
+	text-align: center;
+	font-size: 60px;
+	line-height: 1; 
+    
+}*/
+.button {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px auto;
+}
+/*fin de formulaire*/
+
 
