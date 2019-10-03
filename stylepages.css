@@ -5,16 +5,249 @@
 
 body {
   background-color: #070707;
+  height:100vh;
 }
 
 .soustitrepages {
   color: #eee0cb;
   font-family: "Merriweather", serif;
+  margin-left: -65%;
+  margin-right: 120%;
 }
+.soustitrepages2 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -48.8%;
+  margin-right: 109%;
+}
+.soustitrepages3 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -41.8%;
+  margin-right: 104%;
+}
+.soustitrepages4 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -54.8%;
+  margin-right: 117%;
+}
+.soustitrepages5 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -63.8%;
+  margin-right: 121%;
+}
+.soustitrepages6 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -55.5%;
+  margin-right: 115%;
+}
+.soustitrepages7 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -38.8%;
+  margin-right: 102%;
+}
+.soustitrepages8 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -51.5%;
+  margin-right: 111%;
+}
+.soustitrepages9 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -53.5%;
+  margin-right: 113%;
+}
+
+.soustitrepagesimg {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -73%;
+  padding-top: 7vw;
+  margin-right: 28%;
+  font-size: 7vw;
+}
+.soustitrepagesimg2 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -73%;
+  padding-top: 7vw;
+  margin-right: 26%;
+  font-size: 7vw;
+}
+.soustitrepagesimg3 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -71%;
+  padding-top: 7vw;
+  font-size: 5.5vw;
+  margin-right: 37%;
+}
+.soustitrepagesimg4 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -68%;
+  padding-top: 7vw;
+  font-size: 7vw;
+  margin-right: 32%;
+}
+.soustitrepagesimg5 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -68%;
+  padding-top: 5vw;
+  font-size: 7vw;
+  margin-right: 36%;
+  text-align: center;
+}
+.soustitrepagesimg6 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -71%;
+  padding-top: 7vw;
+    font-size: 7vw;
+  margin-right: 30%;
+}
+.soustitrepagesimg7 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -72%;
+  padding-top: 5vw;
+  font-size: 6vw;
+  margin-right: 28%;
+  text-align: center;
+}
+.soustitrepagesimg8 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -70%;
+  padding-top: 7vw;
+  font-size: 7vw;
+  margin-right: 26%;
+}
+.soustitrepagesimg9 {
+  color: #eee0cb;
+  font-family: "Special Elite", serif;
+  margin-left: -70%;
+  padding-top: 5vw;
+    font-size: 7vw;
+  margin-right: 31%;
+  text-align: center;
+}
+
 
 .txtpages {
   color: #eee0cb;
   font-family: "Merriweather", serif;
+  margin-left: -65%;
+  margin-right: 120%;
+  margin-top: 1%;
+}
+.txtpages2 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -48.8%;
+  margin-right: 109%;
+  margin-top: 1%;
+}
+.txtpages3 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -41.8%;
+  margin-right: 104%;
+  margin-top: 1%;
+}
+.txtpages4 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -54.8%;
+  margin-right: 117%;
+  margin-top: 1%;
+}
+.txtpages5 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -63.8%;
+  margin-right: 121%;
+  margin-top: 1%;
+}
+.txtpages6 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -55.5%;
+  margin-right: 115%;
+  margin-top: 1%;
+}
+.txtpages7 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -38.8%;
+  margin-right: 102%;
+  margin-top: 1%;
+}
+.txtpages8 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -51.5%;
+  margin-right: 111%;
+  margin-top: 1%;
+}
+.txtpages9 {
+  color: #eee0cb;
+  font-family: "Merriweather", serif;
+  margin-left: -53.5%;
+  margin-right: 113%;
+  margin-top: 1%;
+}
+
+.descriptionpages {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages2 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages3 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages4 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages5 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages6 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages7 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages8 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
+}
+.descriptionpages9 {
+  display: none;
+  margin-right: -102%;
+  margin-top: 1.5%;
 }
 
 .titrepages {
@@ -31,26 +264,32 @@ body {
 }
 
 .blocpages {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  display: flex;
 }
 
-.imgpages {
-  margin-right: 4%;
-  box-shadow: 8px 8px 12px #a626397e;
-  width: 300px;
+.imgptg1a {
+  overflow: hidden;
   height: 300px;
+  width: 72vw;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-.descriptionpages {
-  margin-left: 4%;
+.imgptg1b {
+  height: 300px;
+  width: 300;
+  margin: -442px 33%;
+  transform:scale(3.50); opacity: 0.4;
+  pointer-events: all;
+}
+
+@keyframes crescendo {
+  0%   {transform: scale(3.50); opacity: 0.4;} 
+  100% {transform: scale(1); margin-left: 0; margin-bottom: -300px;}
 }
 
 @media screen and (max-width: 640px) {
@@ -66,25 +305,474 @@ body {
     margin-right: 10%;
   }
 
-  .imgpages {
-    margin: auto;
+  .imgptg1a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgptg1b {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .descriptionpages {
     margin: auto;
   }
+  .descriptionpages2 {
+    margin: auto;
+  }
+  .descriptionpages3 {
+    margin: auto;
+  }
+  .descriptionpages4 {
+    margin: auto;
+  }
+  .descriptionpages5 {
+    margin: auto;
+  }
+  .descriptionpages6 {
+    margin: auto;
+  }
+  .descriptionpages7 {
+    margin: auto;
+  }
+  .descriptionpages8 {
+    margin: auto;
+  }
+  .descriptionpages9 {
+    margin: auto;
+  }
 
   .soustitrepages {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages4 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages5 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages6 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages7 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages8 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages9 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
   }
 
   .txtpages {
     text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages2 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages3 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages4 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages5 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages6 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages7 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages8 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages9 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .titrepages {
     text-align: center;
     margin-left: 0;
   }
+  .soustitrepagesimg {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    font-size: 7vw;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg2 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    font-size: 7vw;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg3 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    font-size: 5.5vw;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg4 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    margin-left: -68%;
+    font-size: 7vw;
+    margin-right: 32%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg5 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    margin-left: -68%;
+    font-size: 7vw;
+    margin-right: 36%;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg6 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    margin-left: -71%;
+          font-size: 7vw;
+    margin-right: 30%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg7 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    margin-left: -93%;
+
+    font-size: 6vw;
+    margin-right: 15%;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg8 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    margin-left: -70%;
+
+    font-size: 7vw;
+    margin-right: 26%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg9 {
+    color: #eee0cb;
+    font-family: "Special Elite", serif;
+    margin-left: -88%;
+
+      font-size: 7vw;
+    margin-right: 14%;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+@media screen and (min-width: 641px) and (max-width: 1390px) {
+  .blocpages {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .imgptg1a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgptg1b {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .descriptionpages {
+    margin: auto;
+  }
+  .descriptionpages2 {
+    margin: auto;
+  }
+  .descriptionpages3 {
+    margin: auto;
+  }
+  .descriptionpages4 {
+    margin: auto;
+  }
+  .descriptionpages5 {
+    margin: auto;
+  }
+  .descriptionpages6 {
+    margin: auto;
+  }
+  .descriptionpages7 {
+    margin: auto;
+  }
+  .descriptionpages8 {
+    margin: auto;
+  }
+  .descriptionpages9 {
+    margin: auto;
+  }
+
+  .soustitrepages {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages2 {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages6 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages7 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages8 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+  .soustitrepages9 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+
+  .txtpages {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages2 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages3 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages4 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages5 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages6 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages7 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages8 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txtpages9 {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soustitrepagesimg {
+    margin-left: 11vw;
+    padding-top: 7vw;
+    margin-right: auto;
+    position: absolute;
+}
+.soustitrepagesimg2 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+.soustitrepagesimg3 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+.soustitrepagesimg4 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+.soustitrepagesimg5 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+.soustitrepagesimg6 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+.soustitrepagesimg7 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+.soustitrepagesimg8 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+.soustitrepagesimg9 {
+  margin-left: 11vw;
+  padding-top: 7vw;
+  margin-right: auto;
+  position: absolute;
+}
+
+
+  }
+
+
+
+/* animation fantôme */
+.logoto {
+  opacity: 0.5;
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+
+/* fin animation fantôme */
 /* Fin pages by Nico */

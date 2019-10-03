@@ -25,7 +25,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -57,7 +56,6 @@ li:last-child {
 
 ul.topnav {
   list-style-type: none;
-  margin-top: 8%;
   overflow: hidden;
   background-color: #a62639;
   position: absolute;
@@ -101,15 +99,13 @@ ul.topnav li.right {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
-  ul.topnav li.right,
-  ul.topnav li {
+@media screen and (max-width: 640px) {
+  ul.topnav li.right, ul.topnav li {
     float: none;
   }
 }
 
 .logoto {
-  height: 15%;
   position: absolute;
   width: 7%;
   -webkit-filter: grayscale(0) blur(0px);
@@ -120,7 +116,6 @@ ul.topnav li.right {
 
 .logoto:hover {
   width: 7%;
-  height: 10%;
   border-radius: 50%;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -566,8 +561,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    font-family: Merriweather;
+    text-align:center;
+    font-family: "Merriweather";
   }
 
   .photo {
