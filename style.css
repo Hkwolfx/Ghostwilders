@@ -502,15 +502,9 @@ article {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-<<<<<<< HEAD
   font-family: 'Merriweather', serif;
   border: 2px black solid;
   padding: 10px;
-=======
-  font-family: "Special Elite", serif;
-  border : 2px black solid;
-  padding:10px;
->>>>>>> 6c9c732acc0013fb446f0257368449f1e983de22
   margin-bottom: 20px;
   color: white;
 }
@@ -522,21 +516,12 @@ article {
   margin: auto;
 }
 
-<<<<<<< HEAD
-.horreur_photo {
-  width: 180px;
-  height: 180px;
-  border-radius: 10px;
-  box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional
-    spread radius] [color];
-=======
 .horreur_photo
 {
   width: 200px;
   height: 200px;
   border-radius:10px;
   box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
->>>>>>> 6c9c732acc0013fb446f0257368449f1e983de22
 }
 
 .photo {
@@ -548,28 +533,17 @@ section {
   margin: auto;
 }
 
-<<<<<<< HEAD
-.titre,
-.publie {
-  margin: 0px;
-}
-=======
 .titre, .publie
  {
   margin:0px;
   font-family: "Special Elite", serif;
  }
->>>>>>> 6c9c732acc0013fb446f0257368449f1e983de22
 
 .paragraph {
   margin-top: 15px;
   text-align: justify;
-<<<<<<< HEAD
-}
-=======
   font-family: "Special Elite", serif;
  }
->>>>>>> 6c9c732acc0013fb446f0257368449f1e983de22
 
 .publie {
   text-align: right;
@@ -587,10 +561,6 @@ section {
   color: #a62639;
 }
 
-<<<<<<< HEAD
-@media all and (max-width: 500px) {
-  section h2 {
-=======
  #messAlert
  {
    display:flex;
@@ -626,12 +596,13 @@ section {
   font-weight: bold;
  }
 
- button
+ #close /*button*/
  {
    margin-top:30px;  
    text-align: left;
-   margin-left: 35%;
+   margin-left: 37%;
    font-size: 20px; 
+   
  
  } 
 
@@ -646,7 +617,6 @@ section {
 {
   section h2
   {
->>>>>>> 6c9c732acc0013fb446f0257368449f1e983de22
     text-align: center;
     margin-bottom: 5px;
     font-size: 30px;
