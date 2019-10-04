@@ -59,7 +59,7 @@ ul.topnav {
   overflow: hidden;
   background-color: #a62639;
   position: absolute;
-  z-index:9999;
+  z-index:9998;
   margin-top : 10%;
 }
 
@@ -103,6 +103,9 @@ ul.topnav li.right {
 @media screen and (max-width: 640px) {
   ul.topnav li.right, ul.topnav li {
     float: none;
+  }
+  ul.topnav {
+    position: relative;
   }
 }
 
@@ -574,6 +577,7 @@ section {
    text-align: justify;
    margin : auto;
    font-family: "Special Elite", serif;
+   z-index: 9999;
  }
 
   #messAlert  p
@@ -807,3 +811,8 @@ button {
     margin: 30px auto;   
 }
 /*fin de formulaire*/
+
+.popupimg {
+  width: 100%;
+  height: 100%;
+}
