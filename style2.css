@@ -14,84 +14,81 @@ h1 {
     font-size: 50px;
     border-spacing: 20%;
     margin-bottom: 5%;
-    margin-top: 8%;
-    margin-left: 7%;
+    margin-left: 20px;
     
 }
-/*--------DEBUT DES MEDIAS QUERIES-------------------*/
-@media screen and (min-width : 961px){
-    #CEO {
-        text-align: left;
-    }
-     h3 img {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-    }
-    p img {
-        justify-content: center;
-        display: flex; 
-
-        }
-    #MANAGER {
-        text-align: left;
-    }
-    #GRAPHIC {
-        text-align: left;
-    }
-    #PHOTOGRAPH {
-        text-align: left;
-    }
-    #INVESTIGATOR {
-        text-align: left;
-    }
-    #JOURNALIST {
-        text-align: left;
-    }
-    #EDITOR {
-        text-align: left;
-    }
-    #VOYANTE {
-        text-align: left;
-    }
+.blocpages {
+    display: flex;
+    animation:move 5s ease-out infinite;
 }
-@media screen and (max-width : 961px) {
-    #CEO {
-        text-align: center;
+.blocpages p {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    animation:move 5s ease-out infinite;
+    cursor:pointer;
+    transition:1s ease-in; 
+}
+.blocpages img {
+    margin-left: 20px;
+    animation:move 5s ease-out infinite;
+    cursor:pointer;
+    transition:1s ease-in; 
+  
+}
+h3 {
+    text-align: center;;
+}
+
+@keyframes move {
+from {top:300px;}
+to {top:0px;}
+} 
+
+@keyframes move {
+    0% {
+    top:100px;
     }
-     h3 img {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
+    50% {
+    top:300px;
     }
-    p img {
-        justify-content: center;
+    100% {
+    top:100px;
+    }
+    }
+    /*END circle Animation */
+    
+    /* Swing Animation*/
+    @keyframes swing {
+      0% {
+        transform:rotate(0deg) translate(180px,180px) scale(1, 1);
+      }
+      50% {
+        transform:rotate(90deg) translate(-80px,60px) scale(2, 2);
+      }
+      100% {
+        transform:rotate(0deg) translate(180px,180px) scale(1, 1);
+      }
+    }
+    .texteimage:hover {
+        transform:rotateY(300deg);
+      }
+      
+      
+    
+    /*END swing Animation */
+    /* RESPONSIVE DESIGN */
+
+@media all and (max-width: 640px) {
+    .blocpages {
         display: flex;
+       justify-content: center;
+       flex-direction: column;
+       
+    }
+    .blocpages img {
+        margin: auto;
         
-    }
-    #MANAGER {
-        text-align: center;
-    }
-    #GRAPHIC {
-        text-align: center;
-    }
-    #PHOTOGRAPH {
-        text-align: center;
-    }
-    #INVESTIGATOR {
-        text-align: center;
-    }
-    #JOURNALIST {
-        text-align: center;
-    }
-    #EDITOR {
-        text-align: center;
-    }
-    #VOYANTE {
-        text-align: center;
-    }
-
 }
+
 /*-----------FIN DU CSS DE VANESSA----------*/
