@@ -484,11 +484,7 @@ h4 {
    
 }
 
-/*Page CSS de Ghost Wilders Project.*/
-
-body {
-  background-color: black;
-}
+/*Testimony page*/
 
 section h2 {
   margin-top: 10%;
@@ -554,6 +550,7 @@ section {
   flex-direction: row;
   justify-content: center;
   color: #a62639;
+  margin-bottom: 3%;
 }
 
 .number_page p {
