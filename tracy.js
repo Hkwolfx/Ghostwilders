@@ -17,7 +17,7 @@ function displayAlert() {
 const closed = document.getElementById('close');
 closed.addEventListener('click',() =>{
     audio.pause();
-    divMess.style.display= "none"
+    divMess.style.display= "none";
 });
 
 
