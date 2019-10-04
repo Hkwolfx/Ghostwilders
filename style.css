@@ -640,7 +640,7 @@ section {
 
 /*Debut de formulaire*/
 
-body {
+/*body {
   background-color: #070707;
 }
 form {
@@ -712,7 +712,7 @@ hr
 	line-height: 1; 
     
 }*/
-.button {
+/*.button {
   width: 70%;
   text-align: center;
   display: flex;
@@ -722,3 +722,88 @@ hr
 /*fin de formulaire*/
 
 
+/*Debut de formulaire*/
+
+body {
+  background-color: #070707;
+}
+
+form {
+    width: 70%;
+    margin: auto;   
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(148, 19, 19);
+  font-size: 0.7em;
+  opacity: .7;
+}
+
+textarea::placeholder {
+  font-size: 1.5em;
+}
+
+.center-form {
+    display: flex;
+    flex-basis: 60%;
+}
+
+.center-form {
+    height: 100vh;
+    background: rgb(51, 38, 38);  
+}
+
+form h2 {
+    margin-top: 90px;
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    color: rgb(181, 73, 73);
+    text-align: center;
+    padding:10x;
+}
+
+input {
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+    padding: 4px;
+    font-size: 1.5em;
+    background-color:#FFE4E1;
+    box-shadow:-4px -4px 6px #A62639;
+}
+  
+
+button[type=button]
+{
+  background-color:#A62639;
+  width: 100%; 
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 5px;
+}
+
+textarea {
+    width: 70%;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    color: rgb(148, 19, 19);
+    background-color:#FFE4E1;
+    box-shadow:-4px -4px 6px #A62639;
+}
+
+button {
+     padding: 10px;  
+}   
+
+.button {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end; 
+    margin: 30px auto;   
+}
+/*fin de formulaire*/

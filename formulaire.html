@@ -1,0 +1,81 @@
+<<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ghost Wilders</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="img_src/logo.png" alt='logo' class="logoto">
+
+        <a href="index.html"><canvas id="canvas" width="1932px" height="270px"></canvas></a>
+
+        <ul class="topnav">
+
+            <li><a href="presentation.html">Qui sommes nous ?</a></li>
+            <li><a href="poltergeist.html">Poltergeists</a></li>
+            <li><a href="possessions.html">Possessions</a></li>
+            <li><a href="creatures.html">Créatures</a></li>
+            <li><a href="testimony.html">Témoignages</a></li>
+            <li class="right"><a href="#about">Contactez-nous</a></li>
+        </ul>
+
+    </header>
+
+        
+<!--Formulaire debut-->
+
+         <form class="form"> 
+         <h2>Contact us</h2>
+        <input type = "text" placeholder="NAME">
+        <input type = "text" placeholder="SURNAME">
+        <input type="text" placeholder="@">
+        <textarea placeholder="Your message"></textarea>
+		 <div class="button">
+         <button id="buttonsend" type="button">Send !</button> 
+        
+        </div>
+
+    </form>
+   
+    <!-- Fin formulaire-->
+
+    <div id="contactInfosHome">
+        <div class="infosGhostwilders">
+            <button id="hide">HIDE</button>
+            <div class="txtGhostwilders">
+                <h3>Contact infos</h3>
+                <p>ghostwilders@gmail.com</p>
+                <p>+33 6 66 66 66 66</p>
+                <p>11 Rue de Poissy, 75005 Paris</p>
+            </div>
+        </div>
+        <div class="mapWcs"></div>
+    </div>
+
+    <footer>
+        <div class="footerlist">
+
+            <a href="#contactInfosHome"><button class="footeritems" id="boutonContactFooter">Contact infos</button></a>
+            <p class="footeritems" id="trademarkWcs">wildcodeschool2019</p>
+
+        </div>
+    </footer>
+ 
+    <script src="effetspages.js"></script>
+    <script src="formulaire.js"></script>
+    <script src="script2.js"></script>
+
+</body>
+
+</html>
